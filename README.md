@@ -1,4 +1,4 @@
-# ScarlettDevicesInTheWild
+# Scarlett Devices In The Wild
 Monitoring use of Xbox Series X devices on Xbox Live pre-launch.
 
 So while working on a script to help monitor online populations of Halo titles on Xbox Live (for [SpartanFinder.com](https://spartanfinder.com)) I noticed my script returning players who were playing on devices labeled "Scarlett" instead of Xbox 360, Xbox One, or PC. My script uses the official xbox live services api (aka [XSAPI](https://docs.microsoft.com/en-us/gaming/xbox-live/api-ref/xsapi/live-introduction-to-xbox-live-apis)) to crawl through gamertags and friendslist to see who's on and what game they are playing. This is public information but I believe using the XSAPI is the only way to identify what device is user is on.
